@@ -7,6 +7,9 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    guicursor = "n:blinkon1,n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20",
+    showmode = false, -- Disable showing modes in command line
+    cmdheight = 1, -- hide command line unless needed
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
