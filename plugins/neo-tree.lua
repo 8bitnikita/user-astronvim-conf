@@ -70,7 +70,7 @@ return {
       source_selector = {
         winbar = true,
         content_layout = "center",
-        tab_labels = {
+        source_selector = {
           filesystem = get_icon "FolderClosed" .. " File",
           buffers = get_icon "DefaultFile" .. " Bufs",
           git_status = get_icon "Git" .. " Git",
