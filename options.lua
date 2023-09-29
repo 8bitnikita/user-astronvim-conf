@@ -10,6 +10,7 @@ return {
     guicursor = "n:blinkon1,n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20",
     showmode = true, -- Disable showing modes in command line
     cmdheight = 1, -- hide command line unless needed
+    foldenable = false, -- enable fold for nvim-ufo
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
