@@ -8,7 +8,6 @@ return {
       ensure_installed = {
         "lua_ls",
         "tsserver",
-        "biome",
         "cssls",
         "emmet_ls",
         "html",
@@ -22,7 +21,7 @@ return {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
-      ensure_installed = { "prettier", "stylua", "eslint_d" },
+      ensure_installed = { "prettier", "stylua", "eslint_d", "stylelint" },
     },
   },
   {

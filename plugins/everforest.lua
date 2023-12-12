@@ -1,5 +1,5 @@
 return {
-  "8bitnikita/everforest-nvim",
+  "nk8bnj/everforest-nvim",
   version = false,
   lazy = false,
   priority = 1000,
