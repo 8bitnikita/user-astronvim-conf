@@ -33,7 +33,6 @@ return {
   -- You can disable default plugins as follows:
   -- { "rebelot/heirline.nvim", enabled = false },
   { "kevinhwang91/nvim-ufo", enabled = false },
-  { "jose-elias-alvarez/null-ls.nvim", enabled = false },
   -- { "goolord/alpha-nvim", enabled = false },
   --
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
